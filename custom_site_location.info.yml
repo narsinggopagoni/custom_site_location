@@ -1,0 +1,5 @@
+name: Custom Site Location
+description: 'Custom Module for displaying the selected site location and current time as per selected Location'
+type: module
+package: "Custom"
+core_version_requirement: ^8 || ^9

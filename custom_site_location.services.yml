@@ -1,0 +1,4 @@
+services:
+  custom_site_location.mytimezone:
+    class: Drupal\custom_site_location\MyTimezone
+    arguments: ['@config.factory', '@current_user']

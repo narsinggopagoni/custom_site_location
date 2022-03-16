@@ -1,0 +1,18 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+
+function custom_site_location_theme() {
+  return [
+    'local_timestamp' => [
+      'variables' => [
+        'local_time' => NULL,
+        'city' => NULL,
+        'country' => NULL
+      ],
+    ],
+  ];
+}
